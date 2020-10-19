@@ -1043,6 +1043,7 @@ section
 .product_image
 {
 	width: 100%;
+	text-align: -webkit-center;
 }
 .product_image img
 {
