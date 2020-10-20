@@ -142,8 +142,6 @@
 						<!-- Coloca produtos na pagina-->
 						<div id="conteudo"></div>
 
-
-
 						<!-- Product 1 -->
 
 						<div class="product-item produtos">
@@ -469,11 +467,10 @@
 
 </div>
 <script>
-						$.post('https://vgcarvpro.pythonanywhere.com/EsteEuQuero/pagprod', function (html) {
-							//Essa é a função success
-							//O parâmetro é o retorno da requisição 
-							$('#conteudo').html(html);
-						});
+	
+	    function carregar('https://vgcarvpro.pythonanywhere.com/EsteEuQuero/pagprod'){
+        $("#conteudo").load(pagina);
+    }
 
 </script>
 <script src="js/jquery-3.2.1.min.js"></script>
