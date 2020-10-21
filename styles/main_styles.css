@@ -815,6 +815,12 @@ section
 	color: #fe4c50;
 }
 
+.logo_container img
+{
+
+	max-width: 100px;
+
+}
 /*********************************
 3.7 Main Slider
 *********************************/
